@@ -37,4 +37,17 @@ const html = `
 <p>Author:${postAuthor}</p>
 <span>Este post tem ${postComments} comentários</span>
 `
-console.log(html)
+//console.log(html)
+
+//arrays 
+let heroes = ['Batman', 'Catwoman', 'Iro Man']
+const ages = [31, 25, 39, 40, 25]
+const randomArray = ['Parker', 'Diana', 19, 18]
+//métodos de arrays
+const joinHeroes = heroes.join('-')
+const indexOf25 = ages.indexOf('25')
+const moreHeroes = heroes.concat(['Superman', 'Wolverine'])
+const pushToHeroes = heroes.push('Cyclops', 'Hulk')
+const popHeroes = heroes.pop()
+
+console.log(heroes)
